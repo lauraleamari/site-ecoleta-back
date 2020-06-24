@@ -1,1 +1,1 @@
-web: npm run start && npm run knex:migrate && npm run knex:seed
+web: npm run start

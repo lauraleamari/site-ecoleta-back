@@ -12,6 +12,11 @@ var connection = knex_1.default({
         user: process.env.DB_USER,
         password: process.env.DB_PASS
     },
-    useNullAsDefault: true,
+    migrations: {
+        directory: __dirname + "/src/database/migrations"
+    },
+    seeds: {
+        directory: __dirname + "/src/databaseseeds"
+    },
 });
 exports.default = connection;

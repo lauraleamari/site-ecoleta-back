@@ -1,11 +1,4 @@
 "use strict";
-// Criação do ponto de coleta
-//first pq o id é unico
-//! se não tiver
-// async index é o filtro, por isso, pegamos no query
-// .trim() tira espaçamento da direita e da esquerda
-//whereIn busco todos os pontos em que pelo menos estejam dentro do que estou recebendo do filtro.
-// points.* buscar todos os dados da tabela points.
 var __assign = (this && this.__assign) || function () {
     __assign = Object.assign || function(t) {
         for (var s, i = 1, n = arguments.length; i < n; i++) {
