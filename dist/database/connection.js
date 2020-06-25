@@ -16,7 +16,7 @@ var connection = knex_1.default({
         directory: __dirname + "/src/database/migrations"
     },
     seeds: {
-        directory: __dirname + "/src/databaseseeds"
+        directory: __dirname + "/src/database/seeds"
     },
 });
 exports.default = connection;
